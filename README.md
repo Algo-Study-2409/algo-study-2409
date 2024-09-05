@@ -80,7 +80,7 @@ EX)
 ```
 
 ## 👨‍🎓 Contributor
-|![jundm](https://avatars.githubusercontent.com/u/80582578?v=4)|![cookingTorch](https://avatars.githubusercontent.com/u/129820807?v=4)|![](https://avatars.githubusercontent.com/u/180381262?s=400&u=ed72d5bec6e598c5584b11c22d3d55179ce3c637&v=4)|![](https://avatars.githubusercontent.com/u/180381262?s=400&u=ed72d5bec6e598c5584b11c22d3d55179ce3c637&v=4)|![](https://avatars.githubusercontent.com/u/180381262?s=400&u=ed72d5bec6e598c5584b11c22d3d55179ce3c637&v=4)|
+|![jundm](https://avatars.githubusercontent.com/u/80582578?v=4)|![cookingTorch](https://avatars.githubusercontent.com/u/129820807?v=4)|![kjchoi1997](https://avatars.githubusercontent.com/u/72608849?v=4)|![KungSeung](https://avatars.githubusercontent.com/u/17848840?v=4)|![](https://avatars.githubusercontent.com/u/180381262?s=400&u=ed72d5bec6e598c5584b11c22d3d55179ce3c637&v=4)|
 |:---:|:---:|:---:|:---:|:---:|
-|[jundm](https://github.com/jundm)|[cookingTorch](https://github.com/cookingTorch)|[-]()|[-]()|[-]()|
+|[jundm](https://github.com/jundm)|[cookingTorch](https://github.com/cookingTorch)|[kjchoi1997](https://github.com/kjchoi1997)|[KungSeung](https://github.com/KungSeung)|[-]()|
 
