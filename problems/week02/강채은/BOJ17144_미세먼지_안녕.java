@@ -97,7 +97,7 @@ public class BOJ17144_미세먼지_안녕 {
             board[i] = afterBoard[i].clone();
         }
 
-    }
+    } 
 
     public static void getResult(){
         int cnt = 0;
