@@ -13,14 +13,12 @@ int ans = 0;
 vector<int> arr(20, 0);
 
 void dfs(int idx, int sum) {
-  if(idx == N) {
-    if(sum == S)
-      ans++;
-    return;
+  for(int i = idx + 1; i < N; i++) {
+    dfs(i, sum + arr[i]);
   }
 
-  dfs(idx + 1, sum + arr[idx]);
-  dfs(idx + 1, sum);
+  if(sum == S && idx != -1)
+    ans++;
 }
 
 int main() {
@@ -34,12 +32,12 @@ int main() {
     cin >> arr[i];
   }
 
-  dfs(0, 0);
+  dfs(-1, 0);
 
   // 공집합 제외
-  if(S == 0) {
-    ans--;
-  }
+  // if(S == 0) {
+  //   ans--;
+  // }
 
   cout << ans << "\n";
 }
