@@ -58,6 +58,7 @@ problems
 - PGS - 프로그래머스
 - LTC - 리트코드
 - CFS - 코드포스
+- CDT - 코드트리
 - SEA - 삼성SW Expert Academy
 - AGS - 알고스팟
 - ETC - 그 외
