@@ -3,7 +3,7 @@
 
 /*
 * 현성준 : BOJ 17298 오큰수
-* - 스택을 활용 
+* - 스택을 활용
 * */
 const input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 const N = Number(input[0]);
