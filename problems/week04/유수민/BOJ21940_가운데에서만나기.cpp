@@ -36,7 +36,7 @@ int main(){
     for(int k=1; k<=nCity; k++){
         for(int i=1; i<=nCity; i++){
             for(int j=1; j<=nCity; j++){
-                if(cost[i][k] == -1 || cost[k][j] == -1) continue;
+                if(cost[i][k] == -1 || cost[k][j] == -1 || i == j || i == k || j == k) continue;
                 if(cost[i][j] == -1) cost[i][j] = cost[i][k]+cost[k][j];
                 else cost[i][j] = min(cost[i][j], cost[i][k]+cost[k][j]);
             }
@@ -44,14 +44,14 @@ int main(){
         }
     }
 
-    for(int i=1; i<=nCity; i++){
+    for(int j=1; j<=nCity; j++){
         int MX = INT_MIN;
-        for(int j=1; j<=nCity; j++){
-            if(cost[i][j] == -1 || cost[j][i] == -1) continue;
-            int temp = (cost[i][j] + cost[j][i]);
+        for(auto p : people){
+            if(cost[p][j] == -1 || cost[j][p] == -1) continue;
+            int temp = (cost[p][j] + cost[j][p]);
             MX = max(temp, MX);
         }
-        ans.push_back({MX, i}); 
+        ans.push_back({MX, j}); 
     }
 
     sort(ans.begin(), ans.end());
