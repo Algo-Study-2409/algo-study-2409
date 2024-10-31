@@ -31,7 +31,7 @@ int main() {
 
         for (int i = 0; i < N; i++) {
             ret *= (M - i);
-            ret /= (N - i);
+            ret /= (i + 1);
         }
 
         cout << ret << "\n";
