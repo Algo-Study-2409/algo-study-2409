@@ -61,6 +61,7 @@ problems
 - CDT - 코드트리
 - SEA - 삼성SW Expert Academy
 - AGS - 알고스팟
+- SFT - 소프티어
 - ETC - 그 외
 
 커밋 제목
