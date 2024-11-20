@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 
+
 public class BOJ1051_숫자정사각형 {
 
     private static int N;
