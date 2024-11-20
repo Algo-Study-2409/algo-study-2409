@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class BOJ1051_숫자정사각형{
+public class BOJ1051_숫자정사각형 {
 
     private static int N;
     private static int M;
@@ -9,14 +9,6 @@ public class BOJ1051_숫자정사각형{
     private static int result = Integer.MIN_VALUE;
 
     private static int [][] square;
-
-    private static int checkCorner(int x, int y, int max) {
-        
-        
-
-        return 1;
-
-    }
 
     public static void main(String[] args) throws Exception {
     
@@ -42,7 +34,7 @@ public class BOJ1051_숫자정사각형{
                 for(int k = max; k>=1; k--){
 
                     if(k <= result) break;
-
+                    
                     int mvX = i + (k-1);
                     int mvY = j + (k-1);
         
